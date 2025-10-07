@@ -53,3 +53,15 @@ Trash Detection adalah proyek berbasis computer vision yang bertujuan untuk mend
 
 ## 🖥️ Cara Menjalankan Program
 1. Clone Repositori
+```bash
+git clone https://github.com/arvio1378/Trash-Detection.git
+cd Trash-Detection
+```
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Jalankan Program
+```bash
+streamlit run app/main.py
+```
