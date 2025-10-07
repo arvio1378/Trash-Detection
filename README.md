@@ -22,3 +22,34 @@ Trash Detection adalah proyek berbasis computer vision yang bertujuan untuk mend
 - CV2
 
 ## 📁 Struktur Folder
+- Trash Detection/
+  - app
+      - utils
+          - detect_img.py
+          - detect_video.py
+      - main.py
+  - dataset
+      - train
+          - images
+          - labels
+      - test
+          - images
+          - labels
+      - valid
+          - images
+          - labels
+      - data.yaml
+  - runs
+      - detect
+          - train
+  - style
+      - style.css
+  - test.ipynb
+  - train.py
+  - requirements.txt
+  - README.md
+  - yolo11n.pt
+  - yolov8s.pt
+
+## 🖥️ Cara Menjalankan Program
+1. Clone Repositori
