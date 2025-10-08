@@ -1,4 +1,4 @@
-# Trash-Detection
+<img width="1659" height="1244" alt="image" src="https://github.com/user-attachments/assets/96815f00-8e65-4588-bbfe-6663befe4a16" /># Trash-Detection
 
 ## 📋 Overview
 Trash Detection adalah proyek berbasis computer vision yang bertujuan untuk mendeteksi dan mengklasifikasikan jenis sampah menggunakan model YOLO (You Only Look Once). Proyek ini mendukung pengelolaan sampah cerdas dengan mendeteksi objek seperti plastic, metal, cardboard, battery, can, bulb, dan lain-lain secara real-time dari gambar atau video.
@@ -83,5 +83,25 @@ model.train(
 Beberapa metrik hasil training:
 - Precision-Confidence
 <img width="1564" height="1042" alt="image" src="https://github.com/user-attachments/assets/bd83795d-f16b-40a6-81ff-baee0c3899fa" />
-  - Presisi meningkat seiring meningkatnya keyakinan.
-  - Presisi rata-rata dapat mencapai 0,99 (sangat akurat).
+Presisi meningkat seiring meningkatnya keyakinan dan presisi rata-rata dapat mencapai 0,99 (sangat akurat).
+- Recall-Confidence
+<img width="1434" height="956" alt="image" src="https://github.com/user-attachments/assets/7e85b03c-4fa2-4b2e-b4b8-450c34d494cb" />
+Daya ingat tinggi (0,96) saat ambang batas rendah. Seiring meningkatnya ambang batas, daya ingat menurun.
+- F1-Confidence
+<img width="1434" height="956" alt="image" src="https://github.com/user-attachments/assets/9f3a9877-7a68-42b8-b8d0-0515d93be9d9" />
+Menunjukkan keseimbangan Presisi & Ingatan pada berbagai tingkat keyakinan. F1 tertinggi = 0,87 pada ambang batas 0,59, titik optimal untuk inferensi
+- Confusion Matrix
+<img width="1659" height="1244" alt="image" src="https://github.com/user-attachments/assets/b4586863-b1b4-4e3e-a670-b864a31b42ee" />
+Mayoritas prediksi benar. Kelas yang mudah dideteksi: baterai, botol plastik, tutup botol plastik. Kelas yang sulit: kantong plastik, kardus, gelas kaca (sering keliru digunakan sebagai latar belakang).
+
+## 🏗️ Kontribusi
+Dapat melakukan kontribusi kepada siapa saja. Bisa bantu untuk :
+- Menambahkan lebih banyak dataset
+- Pengoptimalan kinerja model
+- Integrasi dengan IoT Smart Bin
+
+## 🧑‍💻 Tentang Saya
+Saya sedang belajar dan membangun karir di bidang AI/ML. Projek ini adalah latihan saya untuk membangun aplikasi python sederhana. Saya ingin lebih untuk mengembangkan skill saya di bidang ini melalui projek-projek yang ada.
+📫 Terhubung dengan saya di:
+- Linkedin : https://www.linkedin.com/in/arvio-abe-suhendar/
+- Github : https://github.com/arvio1378
