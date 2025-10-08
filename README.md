@@ -78,3 +78,10 @@ model.train(
         workers=2
     )
 ```
+
+## 📊 Evaluation Metrics
+Beberapa metrik hasil training:
+- Precision-Confidence
+<img width="1564" height="1042" alt="image" src="https://github.com/user-attachments/assets/bd83795d-f16b-40a6-81ff-baee0c3899fa" />
+  - Presisi meningkat seiring meningkatnya keyakinan.
+  - Presisi rata-rata dapat mencapai 0,99 (sangat akurat).
