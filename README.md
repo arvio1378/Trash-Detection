@@ -84,12 +84,15 @@ Beberapa metrik hasil training:
 - Precision-Confidence
 <img width="1564" height="1042" alt="image" src="https://github.com/user-attachments/assets/bd83795d-f16b-40a6-81ff-baee0c3899fa" />
 Presisi meningkat seiring meningkatnya keyakinan dan presisi rata-rata dapat mencapai 0,99 (sangat akurat).
+
 - Recall-Confidence
 <img width="1434" height="956" alt="image" src="https://github.com/user-attachments/assets/7e85b03c-4fa2-4b2e-b4b8-450c34d494cb" />
 Daya ingat tinggi (0,96) saat ambang batas rendah. Seiring meningkatnya ambang batas, daya ingat menurun.
+
 - F1-Confidence
 <img width="1434" height="956" alt="image" src="https://github.com/user-attachments/assets/9f3a9877-7a68-42b8-b8d0-0515d93be9d9" />
 Menunjukkan keseimbangan Presisi & Ingatan pada berbagai tingkat keyakinan. F1 tertinggi = 0,87 pada ambang batas 0,59, titik optimal untuk inferensi
+
 - Confusion Matrix
 <img width="1659" height="1244" alt="image" src="https://github.com/user-attachments/assets/b4586863-b1b4-4e3e-a670-b864a31b42ee" />
 Mayoritas prediksi benar. Kelas yang mudah dideteksi: baterai, botol plastik, tutup botol plastik. Kelas yang sulit: kantong plastik, kardus, gelas kaca (sering keliru digunakan sebagai latar belakang).
