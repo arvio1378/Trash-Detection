@@ -29,6 +29,7 @@ Trash Detection adalah proyek berbasis computer vision yang bertujuan untuk mend
           - detect_video.py
           - categories.py
       - main.py
+      - api.py
   - dataset
       - train
           - images
