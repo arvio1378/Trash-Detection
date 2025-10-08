@@ -10,7 +10,7 @@ Trash Detection adalah proyek berbasis computer vision yang bertujuan untuk mend
 - Antarmuka Streamlit untuk upload gambar dan melihat hasil deteksi
 - Warna label berbeda untuk setiap kategori sampah
 
-## 🧠 Tools & Library
+## 🧩 Tools & Library
 - Python
 - Pandas
 - YOLOv8
@@ -64,4 +64,17 @@ pip install -r requirements.txt
 3. Jalankan Program
 ```bash
 streamlit run app/main.py
+```
+
+## Training Model
+Parameter train yolo yang digunakan :
+```bash
+model.train(
+        data="dataset\data.yaml",
+        epochs=50,       
+        imgsz=640,
+        batch=8,
+        device=0,
+        workers=2
+    )
 ```
