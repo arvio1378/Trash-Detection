@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['battery', 'bulb', 'can', 'cardboard', 'drink carton', 'food waste', 'glass bottle', 'glass cup', 'paper', 'paper cup', 'plastic bag', 'plastic bottle', 'plastic bottle cap', 'plastic cup', 'pop tab']
+
+roboflow:
+  workspace: new-workspace-gitbp
+  project: trash-detection-u0hjr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-gitbp/trash-detection-u0hjr/dataset/1

@@ -1,0 +1,12 @@
+.stApp {
+    background-color: #437057;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 56px !important;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #568F87;
+}
